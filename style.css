@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: '62.5%';
+}
+
+h1 {
+    text-align: center;
+    color: tomato;
+    text-decoration: underline;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active {
+    color: tomato;
+    font-weight: bold;
+    background-color: rgb(10, 30, 48);
+    padding: 15px 7px;
+    border-radius: 05px;
+}
