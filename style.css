@@ -31,3 +31,7 @@ a:hover, a:active {
     padding: 15px 7px;
     border-radius: 05px;
 }
+
+input[placeholder="First Name"]::placeholder {
+  color: tomato;
+}
